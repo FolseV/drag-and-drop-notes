@@ -1,0 +1,22 @@
+.todoTitle {
+  text-align: center;
+}
+.todoList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  padding: 20px 20px 0 20px;
+  box-sizing: border-box;
+}
+.itemTodo {
+  text-align: center;
+  min-width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid grey;
+  cursor: grab;
+}
+.todoText {
+  word-break: break-all;
+}
