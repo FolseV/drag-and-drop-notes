@@ -12,7 +12,7 @@ function App() {
   const [todo, setTodo] = useState<TTodo[]>([
     {
       id: 1,
-      message: "first note",
+      message: "lorem5 d gkdugfkuygs dugdksg fkds guf sg fksdgf ksdg kfugskduygf fusdg ",
       index: 1,
     },
     {
@@ -83,6 +83,10 @@ function App() {
                   onDrop={(e) => onDropHandler(e, item)}
                 >
                   <p className="todoText">{item.message}</p>
+                  <div className="todoButtons">
+                    <button>edit</button>
+                    <button>delete</button>
+                  </div>
                 </div>
               );
             })}

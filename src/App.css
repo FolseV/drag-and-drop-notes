@@ -6,12 +6,13 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 300px;
+  width: 100%;
   padding: 20px 20px 0 20px;
   box-sizing: border-box;
 }
 .itemTodo {
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
   min-width: 100%;
   margin-bottom: 10px;
   border: 1px solid grey;
@@ -19,4 +20,5 @@
 }
 .todoText {
   word-break: break-all;
+  padding: 5px;
 }
